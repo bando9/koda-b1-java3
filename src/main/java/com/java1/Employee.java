@@ -38,7 +38,8 @@ public abstract class Employee {
 
     public void addSalary(int amount){
         if(amount <= 0){
-            System.out.println("Error: Kenaikan gaji harus lebih dari 0");
+            // System.out.println("Error: Kenaikan gaji harus lebih dari 0");
+            throw new IllegalArgumentException("Kenaikan gaji harus lebih dari 0");
         } else {
             salary+=amount;
         }

@@ -13,6 +13,9 @@ public class EmployeeService {
         System.out.println("Position: " + employee.getPosition());
         System.out.println("Department: " + employee.getDepartment());
         System.out.println("Salary: " + "Rp. " + employee.getSalary() + "\n");
+        
+        System.out.println("====================");
+        System.out.println();
     }
 
     public void giveRaise(int amount){

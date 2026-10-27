@@ -14,8 +14,7 @@ public class ContractEmployee extends Employee {
         } else{
             addSalary(amount);
         }
-        
+            
         System.out.println("Current Salary: " + "Rp." + getSalary());
-        
     }
 }

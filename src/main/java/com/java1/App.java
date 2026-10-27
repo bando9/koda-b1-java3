@@ -17,9 +17,6 @@ public class App
 
         andiService.showEmployee();
 
-        System.out.println("====================");
-        System.out.println();
-
         budiService.showEmployee();
 
         budiService.giveRaise(300000);
